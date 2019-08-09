@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "---\ntitle: \"AMNH Parasite Biodiversity Analysis\"\nauthor: \"Maureen Anne Williams\"\ndate: \"`r Sys.Date()`\"\noutput:\n  prettydoc::html_pretty:\n    theme: cayman\n    highlight: github\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n###set up the working path and get required R packages\n```{r}\n#Load the tidyverse package\nlibrary(tidyverse)\n\n#Input data from each species into separate tables\nacanig<-read.csv(\"ACANIG.csv\", header=T, stringsAsFactors = F)\ncepuro<-read.csv(\"CEPURO.csv\", header=T, stringsAsFactors = F)\nchrmar<-read.csv(\"CHRMAR.csv\", header=T, stringsAsFactors = F)\npararc<-read.csv(\"PARARC.csv\", header=T, stringsAsFactors = F)\npsebar<-read.csv(\"psebar.csv\", header=T, stringsAsFactors = F)\nsteaur<-read.csv(\"steaur.csv\", header=T, stringsAsFactors = F)\n\n#Generate a list of all host species\nsplist<-c(\"acanig\", \"cepuro\", \"chrmar\", \"pararc\", \"psebar\", \"steaur\")\n```\n\n",
+    "contents" : "---\ntitle: \"AMNH Parasite Biodiversity Analysis\"\nauthor: \"Maureen Anne Williams\"\ndate: \"`r Sys.Date()`\"\noutput:\n  prettydoc::html_pretty:\n    theme: cayman\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n\n###set up the working path and get required R packages\n```{r echo=TRUE}\n#Load the tidyverse package\nlibrary(tidyverse)\n\n#Input data from each species into separate tables\nacanig<-read.csv(\"ACANIG.csv\", header=T, stringsAsFactors = F)\ncepuro<-read.csv(\"CEPURO.csv\", header=T, stringsAsFactors = F)\nchrmar<-read.csv(\"CHRMAR.csv\", header=T, stringsAsFactors = F)\npararc<-read.csv(\"PARARC.csv\", header=T, stringsAsFactors = F)\npsebar<-read.csv(\"psebar.csv\", header=T, stringsAsFactors = F)\nsteaur<-read.csv(\"steaur.csv\", header=T, stringsAsFactors = F)\n\n#Generate a list of all host species\nsplist<-c(\"acanig\", \"cepuro\", \"chrmar\", \"pararc\", \"psebar\", \"steaur\")\n```\n\n",
     "created" : 1565308174407.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2533386715",
+    "hash" : "123225795",
     "id" : "1B0F38CA",
-    "lastKnownWriteTime" : 1565316086,
-    "last_content_update" : 1565316086965,
+    "lastKnownWriteTime" : 1565316690,
+    "last_content_update" : 1565316690686,
     "path" : "~/GitHub/amnh_lab2/amnh_project_file/amnh_output.Rmd",
     "project_path" : "amnh_output.Rmd",
     "properties" : {
