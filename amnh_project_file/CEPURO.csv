@@ -1,0 +1,163 @@
+"","species","fishcode","Date.collected","Date.dissected","island","fishingstatus","station","depth","habitat","Previously.dissected.","TL","SL.Field","TWW.Lab","Gonads","Gonad.mass..g.","Gonad.voucher","Stomach.mass..g.","Stomach.voucher","Liver.mass..g.","Fat.mass..g.","TREM.ALL","MONO.ALL","NEM.ALL","COP.ALL","GNATH.ALL","ISO.ALL"
+"1","CEPURO",930,"12-Nov-10","6-Apr-12","Jarvis","Unfished","JAR-2010-F1",45,"forereef","Y",175,150,77.89,"F1",NA,"5291",NA,"7044",NA,NA,58,5,0,5,0,0
+"2","CEPURO",932,"12-Nov-10","19-Jan-12","Jarvis","Unfished","JAR-2010-F1",45,"forereef","Y",206,170,141,"F1",NA,"16900",NA,"",NA,NA,389,0,7,0,0,0
+"3","CEPURO",934,"12-Nov-10","19-Jan-12","Jarvis","Unfished","JAR-2010-F1",45,"forereef","Y",201,172,147,"F1",NA,"16483",NA,"",NA,NA,318,0,0,1,0,0
+"4","CEPURO",940,"12-Nov-10","6-Apr-12","Jarvis","Unfished","JAR-2010-F1",45,"forereef","Y",145,121,50.23,"M",NA,"6950",NA,"7163",NA,NA,50,0,1,1,0,0
+"5","CEPURO",942,"12-Nov-10","6-Apr-12","Jarvis","Unfished","JAR-2010-F1",45,"forereef","Y",137,110,49.45,"M",NA,"5298",NA,"7041",NA,NA,2,1,0,1,0,0
+"6","CEPURO",943,"12-Nov-10","19-Jan-12","Jarvis","Unfished","JAR-2010-F1",45,"forereef","Y",165,138,72.63,"F1",NA,"14394",NA,"",NA,NA,46,0,13,0,0,0
+"7","CEPURO",382,"13-Nov-10","19-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",131,109,41.29,"F1",NA,"16891",NA,"",NA,NA,13,0,0,0,0,0
+"8","CEPURO",383,"13-Nov-10","7-Feb-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",135,113,41.02,"",NA,"13448",NA,"12671",NA,NA,75,0,23,0,0,0
+"9","CEPURO",384,"13-Nov-10","7-Feb-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",147,122,50.96,"",NA,"13053",NA,"13075",NA,NA,124,0,1,0,1,0
+"10","CEPURO",1185,"13-Nov-10","20-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",154,125,63.65,"?",NA,"",NA,"",NA,NA,113,0,0,0,2,0
+"11","CEPURO",1186,"13-Nov-10","19-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",130,105,37.36,"F1",NA,"16103",NA,"",NA,NA,5,0,3,0,0,0
+"12","CEPURO",1187,"13-Nov-10","18-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",125,104,NA,"?",NA,"16879",NA,"",NA,NA,45,0,0,0,0,0
+"13","CEPURO",1188,"13-Nov-10","8-Feb-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",146,116,53.82,"",NA,"13065",NA,"12659",NA,NA,215,0,30,0,3,0
+"14","CEPURO",1190,"13-Nov-10","18-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",114,103,31.78,"?",NA,"13825",NA,"13432",NA,NA,38,0,3,0,0,0
+"15","CEPURO",1191,"13-Nov-10","18-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",123,102,39.97,"?",NA,"",NA,"13854",NA,NA,110,0,1,0,1,0
+"16","CEPURO",1193,"13-Nov-10","19-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",170,140,80,"?",NA,"16893",NA,"",NA,NA,301,0,55,0,0,0
+"17","CEPURO",1194,"13-Nov-10","18-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",132,112,38.69,"?",NA,"16095",NA,"",NA,NA,54,0,18,0,0,0
+"18","CEPURO",1195,"13-Nov-10","7-Feb-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",154,130,58.31,"",NA,"12644",NA,"13456",NA,NA,321,0,16,0,0,0
+"19","CEPURO",1197,"13-Nov-10","7-Feb-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",145,116,45.32,"",NA,"12661",NA,"13049",NA,NA,124,0,8,0,0,0
+"20","CEPURO",1198,"13-Nov-10","7-Feb-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",148,124,53.71,"",NA,"13071",NA,"13069",NA,NA,29,0,21,0,0,0
+"21","CEPURO",1199,"13-Nov-10","19-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",118,100,30.8,"?",NA,"16488",NA,"",NA,NA,51,0,0,0,0,0
+"22","CEPURO",1200,"13-Nov-10","16-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",130,107,34.17,"?",NA,"13074",NA,"",NA,NA,12,0,6,0,0,0
+"23","CEPURO",1991,"13-Nov-10","17-Jan-12","Jarvis","Unfished","JAR-2010-F2",50,"forereef","Y",208,164,121.61,"?",NA,"12670",NA,"12020",NA,NA,530,7,0,1,0,0
+"24","CEPURO",1985,"13-Nov-10","18-Jan-12","Jarvis","Unfished","JAR-2010-F3",25,"forereef","Y",200,164,138.87,"?",NA,"13008",NA,"12338",NA,NA,128,1,0,2,0,0
+"25","CEPURO",1986,"13-Nov-10","7-Feb-12","Jarvis","Unfished","JAR-2010-F3",25,"forereef","Y",215,179,157.21,"",NA,"13055",NA,"12017",NA,NA,430,0,6,4,0,0
+"26","CEPURO",1987,"13-Nov-10","16-Jan-12","Jarvis","Unfished","JAR-2010-F3",25,"forereef","Y",195,165,135.61,"?",NA,"8798",NA,"12334",NA,NA,78,2,0,4,0,0
+"27","CEPURO",1988,"13-Nov-10","6-Apr-12","Jarvis","Unfished","JAR-2010-F3",25,"forereef","Y",185,155,111.11,"M",NA,"9585",NA,"9589",NA,NA,9,0,0,1,0,0
+"28","CEPURO",1989,"13-Nov-10","16-Jan-12","Jarvis","Unfished","JAR-2010-F3",25,"forereef","Y",210,176,122.67,"?",NA,"12658",NA,"12660",NA,NA,333,1,7,1,0,0
+"29","CEPURO",1990,"13-Nov-10","17-Jan-12","Jarvis","Unfished","JAR-2010-F3",25,"forereef","Y",214,175,176.66,"?",NA,"13421",NA,"12335",NA,NA,280,5,11,4,0,0
+"30","CEPURO",1662,"31-Oct-10","12-Dec-11","Kingman","Unfished","KIN-2010-F2",35,"backreef","Y",172.3,137.7,90.99,"F3",NA,"",NA,"",NA,NA,163,0,10,1,0,0
+"31","CEPURO",1682,"3-Nov-10","19-Mar-12","Kingman","Unfished","KIN-2010-F4",60,"backreef","Y",199.2,162.3,149.49,"?",NA,"7413",NA,"7321",NA,NA,138,0,11,0,0,0
+"32","CEPURO",1683,"3-Nov-10","19-Mar-12","Kingman","Unfished","KIN-2010-F4",60,"backreef","Y",188.9,153.9,140.2,"F3",NA,"",NA,"",NA,NA,99,0,23,7,0,0
+"33","CEPURO",1684,"3-Nov-10","12-Dec-11","Kingman","Unfished","KIN-2010-F4",60,"backreef","Y",230,188.2,178.14,"F1",NA,"",NA,"",NA,NA,130,0,5,12,0,0
+"34","CEPURO",1685,"3-Nov-10","13-Dec-11","Kingman","Unfished","KIN-2010-F4",60,"backreef","Y",185.4,156.3,106.2,"F3",NA,"8829/8767",NA,"",NA,NA,40,0,14,0,0,0
+"35","CEPURO",1707,"2-Nov-10","19-Mar-12","Kingman","Unfished","KIN-2010-F4",60,"backreef","Y",175.2,146.9,91,"F3",NA,"7326",NA,"7327",NA,NA,92,0,14,1,0,0
+"36","CEPURO",1708,"2-Nov-10","13-Dec-11","Kingman","Unfished","KIN-2010-F4",60,"backreef","Y",198.2,159.5,134.21,"?",NA,"8822/8760",NA,"",NA,NA,47,0,4,7,0,0
+"37","CEPURO",1709,"2-Nov-10","19-Mar-12","Kingman","Unfished","KIN-2010-F4",60,"backreef","Y",206.4,165.7,153.61,"F1",NA,"5376",NA,"7334",NA,NA,60,0,11,4,0,0
+"38","CEPURO",1710,"2-Nov-10","12-Dec-11","Kingman","Unfished","KIN-2010-F4",60,"backreef","Y",201.9,165.8,130.53,"F1",NA,"",NA,"",NA,NA,9,0,6,4,0,0
+"39","CEPURO",2501,"2-Nov-10","16-Mar-12","Kingman","Unfished","KIN-2010-F5",60,"forereef","Y",194.2,160.8,124.76,"F1",NA,"7213",NA,"7333",NA,NA,3,0,0,0,0,0
+"40","CEPURO",2504,"2-Nov-10","13-Dec-11","Kingman","Unfished","KIN-2010-F5",60,"forereef","Y",152.1,127.9,57.79,"F3",NA,"8797/8849",NA,"",NA,NA,17,0,0,2,2,0
+"41","CEPURO",2031,"19-Nov-10","1-May-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","Y",196,158,109.67,"?",NA,"",NA,"",NA,NA,12,0,0,55,0,0
+"42","CEPURO",2422,"26-Oct-10","9-Apr-12","Palmyra","Unfished","Penguin Spit",15,"backreef","Y",177.2,146.3,82.61,"F2",NA,"5299",NA,"7396",NA,NA,90,1,1,2,0,0
+"43","CEPURO",2423,"26-Oct-10","9-Feb-12","Palmyra","Unfished","Penguin Spit",15,"backreef","Y",170.9,138,88.83,"F3",NA,"8800",NA,"13955",NA,NA,37,0,0,0,0,0
+"44","CEPURO",2425,"26-Oct-10","5-Apr-12","Palmyra","Unfished","Penguin Spit",15,"backreef","Y",182.4,149.6,107.51,"F1",NA,"7851",NA,"7393",NA,NA,46,0,7,5,0,0
+"45","CEPURO",29,"25-Oct-10","15-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",150.9,125.8,52.53,"F3",NA,"9486",NA,"401",NA,NA,36,0,2,7,0,0
+"46","CEPURO",31,"25-Oct-10","16-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",159.1,131.5,64.1,"F3",NA,"571",NA,"349",NA,NA,61,0,1,5,0,0
+"47","CEPURO",32,"25-Oct-10","15-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",159.8,137.3,71.54,"?",NA,"",NA,"245",NA,NA,28,0,1,14,0,0
+"48","CEPURO",37,"26-Oct-10","5-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",177.4,153.7,82.08,"F3",NA,"7395",NA,"7049",NA,NA,1047,0,32,1,0,0
+"49","CEPURO",839,"26-Oct-10","9-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",170.3,167.7,78.78,"?",NA,"6429",NA,"6428",NA,NA,426,0,29,6,0,0
+"50","CEPURO",842,"26-Oct-10","5-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",177.2,150,84.44,"F1",NA,"7162",NA,"7392",NA,NA,790,0,18,0,0,0
+"51","CEPURO",843,"26-Oct-10","9-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",177.2,150.5,93.41,"F2",NA,"7014",NA,"6151",NA,NA,605,0,109,4,0,0
+"52","CEPURO",848,"26-Oct-10","5-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",161.3,135.5,77.74,"F2",NA,"7117",NA,"7636",NA,NA,432,0,19,2,0,0
+"53","CEPURO",1607,"25-Oct-10","15-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",177.8,156.4,89.31,"F1",NA,"774",NA,"815",NA,NA,40,0,2,14,0,0
+"54","CEPURO",1608,"25-Oct-10","13-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",193.6,162.9,104.8,"F1",NA,"13944",NA,"13146",NA,NA,89,0,0,8,0,0
+"55","CEPURO",1609,"25-Oct-10","15-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",110,96.9,21.43,"?",NA,"218",NA,"160",NA,NA,7,0,1,2,0,0
+"56","CEPURO",1611,"25-Oct-10","9-Feb-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",181.3,155.1,98.22,"M",NA,"13578",NA,"13579",NA,NA,39,0,7,19,0,0
+"57","CEPURO",1612,"25-Oct-10","5-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",131.9,110.1,44.21,"F3",NA,"7406",NA,"7401",NA,NA,28,0,0,5,0,0
+"58","CEPURO",1614,"25-Oct-10","13-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",165.1,141.7,70.11,"F3",NA,"12716",NA,"12767",NA,NA,106,0,0,3,0,0
+"59","CEPURO",1643,"26-Oct-10","8-Feb-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",155.1,136.5,52.69,"",NA,"12776",NA,"13176",NA,NA,35,0,4,2,0,0
+"60","CEPURO",1644,"26-Oct-10","5-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",152.7,130,56.69,"F3",NA,"7394",NA,"5300",NA,NA,55,NA,0,0,NA,0
+"61","CEPURO",1645,"26-Oct-10","13-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",165.9,144.8,71.08,"F3",NA,"5528",NA,"7336",NA,NA,15,0,1,13,0,0
+"62","CEPURO",1646,"26-Oct-10","5-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",172.4,148.1,78.25,"F1",NA,"7385",NA,"5235",NA,NA,16,0,1,2,0,0
+"63","CEPURO",1647,"26-Oct-10","13-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",144.3,126.6,51.79,"F3",NA,"7414",NA,"6438",NA,NA,12,0,0,3,0,0
+"64","CEPURO",1648,"26-Oct-10","8-Feb-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",175.1,154.2,92.72,"F1",NA,"13192",NA,"13997",NA,NA,28,1,3,12,0,0
+"65","CEPURO",3201,"25-Oct-10","8-Feb-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",178.3,154.9,103.26,"",NA,"12806",NA,"12800",NA,NA,26,0,4,10,0,0
+"66","CEPURO",3202,"25-Oct-10","15-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",150.6,127.8,56.38,"F3",NA,"9480",NA,"153",NA,NA,17,0,22,10,0,0
+"67","CEPURO",3203,"25-Oct-10","16-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",176.5,151.7,85.9,"F1",NA,"436",NA,"152",NA,NA,89,0,0,2,0,0
+"68","CEPURO",3204,"25-Oct-10","9-Feb-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",171.2,145.4,81.97,"F2",NA,"13988",NA,"12779",NA,NA,45,0,1,31,0,0
+"69","CEPURO",3205,"25-Oct-10","16-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",144.6,119.2,54.57,"F3",NA,"9481",NA,"9482",NA,NA,19,0,0,3,0,0
+"70","CEPURO",3206,"25-Oct-10","16-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",163.2,138.5,71.22,"F3",NA,"232",NA,"9485",NA,NA,33,0,0,15,0,0
+"71","CEPURO",3208,"25-Oct-10","19-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",181.9,154.5,106.57,"F1",NA,"7325",NA,"6310",NA,NA,66,0,1,3,0,0
+"72","CEPURO",3209,"25-Oct-10","5-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",186.8,163.2,118.52,"M",NA,"407",NA,"406",NA,NA,85,0,0,24,0,0
+"73","CEPURO",3211,"25-Oct-10","5-Apr-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",188.1,161.4,85.53,"M",NA,"993",NA,"889",NA,NA,84,0,0,12,0,0
+"74","CEPURO",3217,"26-Oct-10","13-Mar-12","Palmyra","Unfished","Penguin Spit Channel",15,"backreef","Y",161.8,132.4,68.52,"F3",NA,"12764",NA,"13161",NA,NA,41,0,0,5,0,0
+"75","CEPURO",165,"5-Nov-10","9-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",137.4,112.2,39.46,"?",NA,"",NA,"6443",NA,NA,3,0,18,6,0,0
+"76","CEPURO",201,"5-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",171,139,81.54,"F1",NA,"5546",NA,"7196",NA,NA,21,0,1,16,0,0
+"77","CEPURO",957,"5-Nov-10","9-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",161.2,131.5,64.83,"F1",NA,"6413",NA,"7335",NA,NA,4,0,0,17,0,0
+"78","CEPURO",958,"5-Nov-10","9-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",197.4,162.2,122.14,"?",NA,"6440",NA,"7202",NA,NA,9,1,1,16,0,0
+"79","CEPURO",3345,"5-Nov-10","6-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",164,137,70.58,"M",NA,"12727",NA,"12725",NA,NA,1,0,7,21,0,0
+"80","CEPURO",3346,"5-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",192,157,113.82,"F1",NA,"13116",NA,"13115",NA,NA,2,0,2,32,0,0
+"81","CEPURO",3347,"5-Nov-10","6-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",156,129,52.19,"?",NA,"12751",NA,"13550",NA,NA,4,0,0,8,0,0
+"82","CEPURO",3348,"5-Nov-10","6-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",174,143,68.06,"F1",NA,"12742",NA,"13134",NA,NA,6,0,0,20,0,0
+"83","CEPURO",3349,"5-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",175,145,79.48,"?",NA,"13932",NA,"13131",NA,NA,8,0,5,3,0,0
+"84","CEPURO",3350,"5-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",165,137,68.41,"?",NA,"13113",NA,"13120",NA,NA,18,0,1,2,0,0
+"85","CEPURO",3351,"5-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",156,129,60.32,"?",NA,"12698",NA,"12726",NA,NA,4,0,0,18,0,0
+"86","CEPURO",3352,"5-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",189,157,99.47,"F1",NA,"13512",NA,"13523",NA,NA,4,0,1,19,0,0
+"87","CEPURO",3353,"5-Nov-10","6-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",195,165,108.25,"?",NA,"13133",NA,"12708",NA,NA,18,0,1,17,0,0
+"88","CEPURO",3354,"5-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",184,152,91.82,"F1",NA,"13535",NA,"13130",NA,NA,6,0,2,20,0,0
+"89","CEPURO",3355,"5-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",182,150,88.74,"F1",NA,"13516",NA,"12336",NA,NA,12,0,8,2,0,0
+"90","CEPURO",3357,"5-Nov-10","6-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",194,156,110.59,"F1",NA,"13141",NA,"13952",NA,NA,0,0,2,17,0,0
+"91","CEPURO",3359,"5-Nov-10","6-Apr-12","Tabuaeran","Fished","TAB-2010-F1",65,"forereef","Y",176,143,84.44,"?",NA,"13951",NA,"13946",NA,NA,16,0,1,19,0,0
+"92","CEPURO",3409,"6-Nov-10","21-Jan-12","Tabuaeran","Fished","TAB-2010-F2",55,"forereef","Y",176,144,93,"F1",NA,"15969",NA,"8772",NA,NA,7,0,1,98,0,0
+"93","CEPURO",3410,"6-Nov-10","21-Jan-12","Tabuaeran","Fished","TAB-2010-F2",55,"forereef","Y",144,119,54.04,"F1",NA,"16334",NA,"",NA,NA,3,0,15,27,0,0
+"94","CEPURO",3411,"6-Nov-10","17-Jan-12","Tabuaeran","Fished","TAB-2010-F2",55,"forereef","Y",169,142.5,81,"?",NA,"15781",NA,"",NA,NA,2,1,4,3,0,0
+"95","CEPURO",1825,"7-Nov-10","21-Jan-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",206,177,141,"F1",NA,"16761",NA,"",NA,NA,5,0,7,62,0,0
+"96","CEPURO",1826,"7-Nov-10","20-Jan-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",195,158,111,"?",NA,"15814",NA,"",NA,NA,13,0,4,19,0,0
+"97","CEPURO",1827,"7-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",179,144,89.1,"F1",NA,"13104",NA,"13092",NA,NA,27,0,1,27,0,0
+"98","CEPURO",1828,"7-Nov-10","18-Jan-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",173,140,76,"?",NA,"",NA,"8837",NA,NA,0,0,3,11,0,0
+"99","CEPURO",1829,"7-Nov-10","4-Apr-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",175,142,80.2,"F1",NA,"13891",NA,"13081",NA,NA,12,0,2,67,0,0
+"100","CEPURO",1830,"7-Nov-10","21-Jan-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",174,143,80,"?",NA,"17172",NA,"",NA,NA,4,0,1,20,0,0
+"101","CEPURO",1831,"7-Nov-10","18-Jan-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",158,131,69,"?",NA,"15761",NA,"",NA,NA,0,0,1,11,0,0
+"102","CEPURO",1832,"7-Nov-10","17-Jan-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",142,118,49,"?",NA,"16687",NA,"8796",NA,NA,5,0,0,10,0,0
+"103","CEPURO",1833,"7-Nov-10","20-Jan-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",133,106,36.72,"?",NA,"16588",NA,"17152",NA,NA,3,0,0,2,0,0
+"104","CEPURO",1834,"7-Nov-10","21-Jan-12","Tabuaeran","Fished","TAB-2010-F4",65,"forereef","Y",110,92,20.43,"?",NA,"15928",NA,"",NA,NA,3,1,0,14,0,0
+"105","CEPURO",249,"8-Nov-10","9-Apr-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",138,115,43.43,"M",NA,"11060",NA,"11098",NA,NA,7,0,0,0,0,0
+"106","CEPURO",251,"8-Nov-10","9-Apr-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",131,109,33.35,"F1",NA,"11149",NA,"11100",NA,NA,8,0,0,0,0,0
+"107","CEPURO",252,"8-Nov-10","9-Apr-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",140,115,49.03,"F1",NA,"11006",NA,"11096",NA,NA,11,0,0,1,0,0
+"108","CEPURO",255,"8-Nov-10","19-Jan-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",150,120,NA,"?",NA,"",NA,"",NA,NA,7,1,2,5,0,0
+"109","CEPURO",1860,"8-Nov-10","9-Apr-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",154,125,62.99,"F1",NA,"16146",NA,"16110",NA,NA,30,1,3,5,0,0
+"110","CEPURO",1861,"8-Nov-10","25-Jan-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",154,130,65.9,"F1",NA,"12638",NA,"13438",NA,NA,24,7,1,1,0,0
+"111","CEPURO",1862,"8-Nov-10","25-Jan-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",176,144,101.96,"M",NA,"13820",NA,"13026",NA,NA,110,1,3,5,0,0
+"112","CEPURO",1864,"8-Nov-10","17-Jan-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",143,119,46.34,"?",NA,"16486",NA,"",NA,NA,9,6,4,9,0,0
+"113","CEPURO",1865,"8-Nov-10","9-Apr-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",148,120,51.35,"F2",NA,"16141",NA,"16528",NA,NA,32,0,2,2,0,0
+"114","CEPURO",1868,"8-Nov-10","9-Apr-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",165,137,67.46,"F1",NA,"11101",NA,"11049",NA,NA,8,0,1,1,0,0
+"115","CEPURO",1869,"8-Nov-10","11-Apr-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",139,114,41.05,"F1",NA,"15719",NA,"10124",NA,NA,13,1,3,3,0,0
+"116","CEPURO",1872,"8-Nov-10","5-Apr-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",179,149,91.43,"M",NA,"6444",NA,"6419",NA,NA,44,0,0,0,0,0
+"117","CEPURO",2658,"8-Nov-10","21-Jan-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",142,117,46.75,"F1",NA,"13007",NA,"12610",NA,NA,4,1,9,1,0,0
+"118","CEPURO",2660,"8-Nov-10","21-Jan-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",160,135,66.77,"F1",NA,"12655",NA,"12673",NA,NA,4,0,2,0,0,0
+"119","CEPURO",2661,"8-Nov-10","21-Jan-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",135,111,39.11,"F1",NA,"13033",NA,"12606",NA,NA,11,0,1,4,0,0
+"120","CEPURO",2662,"8-Nov-10","21-Jan-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",169,139,73.98,"F1",NA,"13089",NA,"13910",NA,NA,5,0,0,2,0,0
+"121","CEPURO",2663,"8-Nov-10","25-Jan-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",173,145,75.95,"?",NA,"13886",NA,"13876",NA,NA,65,12,2,7,0,0
+"122","CEPURO",2664,"8-Nov-10","9-Apr-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",186,155,109.25,"F1",NA,"873",NA,"898",NA,NA,28,3,0,2,0,0
+"123","CEPURO",2665,"8-Nov-10","1-Feb-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",142,114,46.07,"F1",NA,"13029",NA,"12599",NA,NA,21,0,0,3,0,0
+"124","CEPURO",2666,"8-Nov-10","1-Feb-12","Teraina","Fished","TER-2010-F1",60,"forereef","Y",155,127,57.5,"F1",NA,"12618",NA,"13006",NA,NA,9,1,3,0,0,0
+"125","CEPURO",1137,"10-Nov-10","25-Jan-12","Teraina","Fished","TER-2010-F7",35,"forereef","Y",209,175,106.45,"F1",NA,"13804",NA,"12997",NA,NA,154,3,10,6,0,0
+"126","CEPURO",1138,"10-Nov-10","25-Jan-12","Teraina","Fished","TER-2010-F7",35,"forereef","Y",194,166,98.68,"F1",NA,"13895",NA,"13500",NA,NA,13,1,1,2,0,0
+"127","CEPURO",1139,"10-Nov-10","1-Feb-12","Teraina","Fished","TER-2010-F7",35,"forereef","Y",187,155,102.81,"",NA,"12681",NA,"12019",NA,NA,50,2,0,2,0,0
+"128","CEPURO",1141,"10-Nov-10","1-Feb-12","Teraina","Fished","TER-2010-F7",35,"forereef","Y",169,137,65.46,"F2",NA,"13442",NA,"13036",NA,NA,25,3,0,9,0,0
+"129","CEPURO",1142,"10-Nov-10","1-Feb-12","Teraina","Fished","TER-2010-F7",35,"forereef","Y",160,135,59.24,"F1",NA,"13884",NA,"13889",NA,NA,7,1,1,9,0,0
+"130","CEPURO",1143,"10-Nov-10","21-Jan-12","Teraina","Fished","TER-2010-F7",35,"forereef","Y",160,133,68.61,"F3",NA,"?",NA,"13001",NA,NA,6,2,1,7,0,0
+"131","CEPURO",155,"17-Jul-09","20-Mar-12","Kiritimati","Fished","KIR-2009-46",33,"forereef","Y",129.7,106.6,36.93,"?",NA,"9663",NA,"9340",NA,NA,39,0,3,11,0,0
+"132","CEPURO",156,"17-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-46",33,"forereef","Y",158.7,129.5,62.86,"F3",NA,"6",NA,"34",NA,NA,81,0,1,325,0,0
+"133","CEPURO",157,"17-Jul-09","20-Mar-12","Kiritimati","Fished","KIR-2009-46",33,"forereef","Y",146.3,120.3,47.76,"F3",NA,"9488",NA,"9960",NA,NA,262,0,1,470,0,0
+"134","CEPURO",158,"17-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-46",33,"forereef","Y",168.8,147.4,75.66,"?",NA,"9053",NA,"9349",NA,NA,123,1,0,110,0,0
+"135","CEPURO",159,"17-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-46",33,"forereef","Y",170.3,141.5,96.86,"M",NA,"3695",NA,"1130",NA,NA,141,0,18,156,0,0
+"136","CEPURO",160,"17-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-43",33,"forereef","Y",173.4,141.4,104.61,"M",NA,"9329",NA,"9625",NA,NA,90,0,18,72,0,0
+"137","CEPURO",161,"17-Jul-09","20-Mar-12","Kiritimati","Fished","KIR-2009-43",33,"forereef","Y",145,121.4,54.33,"F1",NA,"28",NA,"30",NA,NA,55,0,0,55,0,0
+"138","CEPURO",174,"17-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-44",33,"forereef","Y",199.6,155.7,134.56,"M",NA,"17",NA,"23",NA,NA,62,0,3,29,0,0
+"139","CEPURO",175,"17-Jul-09","20-Mar-12","Kiritimati","Fished","KIR-2009-44",33,"forereef","Y",203,168.3,120.6,"F1",NA,"9945",NA,"9948",NA,NA,242,0,2,1,0,0
+"140","CEPURO",301,"21-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-63",33,"forereef","N",150.6,131.3,55.73,"F1",0.04,"8769",NA,"8794",0.08,NA,36,0,6,21,0,0
+"141","CEPURO",306,"21-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-63",33,"forereef","Y",129.1,109.7,40.59,"F3",NA,"10",NA,"20",NA,NA,27,1,0,16,0,0
+"142","CEPURO",308,"21-Jul-09","20-Mar-12","Kiritimati","Fished","KIR-2009-63",33,"forereef","Y",131.5,110.3,41.59,"?",NA,"25",NA,"9999",NA,NA,40,0,0,10,0,0
+"143","CEPURO",409,"23-Jul-09","11-Mar-11","Kiritimati","Fished","KIR-2009-T19",33,"forereef","N",178.5,152.2,100.49,"F2",0.55,"8218",1.95,"8221/8072",0.11,0,61,0,2,4,0,0
+"144","CEPURO",433,"23-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-T19",33,"forereef","N",177.4,152.4,102.48,"F1",0.23,"8846",NA,"8778",0.27,NA,297,0,1,77,0,0
+"145","CEPURO",450,"23-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-T19",33,"forereef","N",160,138,63.87,"F1",0.04,"8805",NA,"8853",0.13,NA,73,3,1,25,0,0
+"146","CEPURO",453,"23-Jul-09","11-Apr-12","Kiritimati","Fished","KIR-2009-T19",33,"forereef","N",175.2,146.6,87.02,"F1",0.15,"8762",NA,"8790",0.27,NA,108,1,0,129,0,0
+"147","CEPURO",2779,"","2-May-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","Y",138.7,111.3,45.58,"F1",NA,"",NA,"",NA,NA,3,0,0,8,0,0
+"148","CEPURO",2788,"19-Nov-10","2-May-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","Y",116.8,96.1,27.06,"F1",NA,"",NA,"",NA,NA,4,0,0,29,0,0
+"149","CEPURO",4089,"","15-Feb-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",149.9,121.7,54.34,"",NA,"",0.67,"8290",0.43,0,0,0,0,22,0,0
+"150","CEPURO",4090,"2010","15-Feb-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",198.4,162.1,142.92,"F1",0.06,"8061",2.36,"8230/8212",0.96,1.95,56,0,0,1,0,1
+"151","CEPURO",4091,"","19-Feb-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",178.1,149.4,114.68,"",NA,"",1.3,"8180/8157",0.91,0,2,0,0,18,0,0
+"152","CEPURO",4092,"","15-Feb-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",188.2,154.7,118.92,"F1",0.07,"8077",1.17,"8134/8226",0.54,1.75,41,0,0,6,0,0
+"153","CEPURO",4093,"","15-Feb-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",187.5,157,122.78,"F1",0.05,"8223",1.52,"8142/8141",0.67,2,2,0,0,0,0,0
+"154","CEPURO",4094,"","1-Mar-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",154.7,122.9,63.89,"F1",0.19,"8075",0.6,"8225/8196",0.44,0.7,36,0,0,3,0,0
+"155","CEPURO",4095,"","19-Feb-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",149.9,121.9,59.42,"F1",0.08,"8312",0.68,"8297",0.78,0,7,0,0,14,0,0
+"156","CEPURO",4096,"","19-Feb-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",193,160,130.82,"F1",0.03,"8136",1.08,"8139",0.71,0.45,17,0,0,18,0,0
+"157","CEPURO",4098,"","1-Mar-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",200.4,165.1,154.6,"",NA,"",1.51,"8213",1.52,1.7,243,0,0,51,0,0
+"158","CEPURO",4099,"","1-May-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","Y",164.9,136.1,87.33,"?",NA,"",NA,"",NA,NA,50,0,0,16,0,0
+"159","CEPURO",4100,"","19-Feb-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",164.6,131.6,82.41,"F1",0.15,"8068",0.8,"8236",0.77,2.12,73,0,1,18,0,0
+"160","CEPURO",4101,"","2-May-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","Y",149.3,123,59.95,"F1",NA,"",NA,"",NA,NA,3,0,0,5,0,0
+"161","CEPURO",4102,"","1-Mar-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",144.5,116.3,NA,"F1",0.08,"8195",0.66,"8293",0.25,0,3,0,0,7,0,0
+"162","CEPURO",4103,"","19-Feb-11","Kiritimati","Fished","KIR-2010-F1",35,"forereef","N",172.9,141,NA,"F1",0.02,"8079",0.86,"8158",0.51,0,2,0,2,26,0,0

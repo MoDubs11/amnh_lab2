@@ -1,0 +1,31 @@
+---
+title: "AMNH Parasite Biodiversity Analysis"
+author: "Maureen Anne Williams"
+date: "`r Sys.Date()`"
+output:
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###set up the working path and get required R packages
+```{r}
+#Load the tidyverse package
+library(tidyverse)
+
+#Input data from each species into separate tables
+acanig<-read.csv("ACANIG.csv", header=T, stringsAsFactors = F)
+cepuro<-read.csv("CEPURO.csv", header=T, stringsAsFactors = F)
+chrmar<-read.csv("CHRMAR.csv", header=T, stringsAsFactors = F)
+pararc<-read.csv("PARARC.csv", header=T, stringsAsFactors = F)
+psebar<-read.csv("psebar.csv", header=T, stringsAsFactors = F)
+steaur<-read.csv("steaur.csv", header=T, stringsAsFactors = F)
+
+#Generate a list of all host species
+splist<-c("acanig", "cepuro", "chrmar", "pararc", "psebar", "steaur")
+```
+
