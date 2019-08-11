@@ -142,9 +142,10 @@ splist &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">
 <h3>Find means and standard deviations for first species</h3>
 <div id="weve-loaded-in-the-data-and-we-have-a-list-of-all-the-species.we-then-want-to-find-the-mean-and-standard-error-of-parasite-abundance-for-each-species." class="section level4">
 <h4>We’ve loaded in the data and we have a list of all the species.We then want to find the mean and standard error of parasite abundance for each species.</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">summary_table &lt;-<span class="st"> </span>mastersheet %&gt;%<span class="st"> </span><span class="kw">ddply</span>(<span class="kw">c</span>(<span class="st">&quot;fish_species&quot;</span>), summarise, <span class="dt">N =</span> <span class="kw">length</span>(fish_species), 
-    <span class="dt">tre_mean =</span> <span class="kw">mean</span>(trematodes_count, <span class="dt">na.rm =</span> T), <span class="dt">tre_sd =</span> <span class="kw">sd</span>(trematodes_count, 
-        <span class="dt">na.rm =</span> T), <span class="dt">tre_se =</span> tre_sd/<span class="kw">sqrt</span>(N), <span class="dt">cest_mean =</span> <span class="kw">mean</span>(cestodes_count, 
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(knitr)
+<span class="kw">kable</span>(summary_table &lt;-<span class="st"> </span>mastersheet %&gt;%<span class="st"> </span><span class="kw">ddply</span>(<span class="kw">c</span>(<span class="st">&quot;fish_species&quot;</span>, <span class="st">&quot;fishing_status&quot;</span>), 
+    summarise, <span class="dt">N =</span> <span class="kw">length</span>(fish_species), <span class="dt">tre_mean =</span> <span class="kw">mean</span>(trematodes_count, <span class="dt">na.rm =</span> T), 
+    <span class="dt">tre_sd =</span> <span class="kw">sd</span>(trematodes_count, <span class="dt">na.rm =</span> T), <span class="dt">tre_se =</span> tre_sd/<span class="kw">sqrt</span>(N), <span class="dt">cest_mean =</span> <span class="kw">mean</span>(cestodes_count, 
         <span class="dt">na.rm =</span> T), <span class="dt">cest_sd =</span> <span class="kw">sd</span>(cestodes_count, <span class="dt">na.rm =</span> T), <span class="dt">cest_se =</span> cest_sd/<span class="kw">sqrt</span>(N), 
     <span class="dt">cop_mean =</span> <span class="kw">mean</span>(copepods_count, <span class="dt">na.rm =</span> T), <span class="dt">cop_sd =</span> <span class="kw">sd</span>(copepods_count, 
         <span class="dt">na.rm =</span> T), <span class="dt">cop_se =</span> cop_sd/<span class="kw">sqrt</span>(N), <span class="dt">iso_mean =</span> <span class="kw">mean</span>(isopods_count, 
@@ -153,7 +154,351 @@ splist &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">
         <span class="dt">na.rm =</span> T), <span class="dt">mono_se =</span> mono_sd/<span class="kw">sqrt</span>(N), <span class="dt">nem_mean =</span> <span class="kw">mean</span>(nematodes_count, 
         <span class="dt">na.rm =</span> T), <span class="dt">nem_sd =</span> <span class="kw">sd</span>(nematodes_count, <span class="dt">na.rm =</span> T), <span class="dt">nem_se =</span> nem_sd/<span class="kw">sqrt</span>(N), 
     <span class="dt">gna_mean =</span> <span class="kw">mean</span>(gnathopods_count, <span class="dt">na.rm =</span> T), <span class="dt">gna_sd =</span> <span class="kw">sd</span>(gnathopods_count, 
-        <span class="dt">na.rm =</span> T), <span class="dt">gna_se =</span> gna_sd/<span class="kw">sqrt</span>(N))</code></pre></div>
+        <span class="dt">na.rm =</span> T), <span class="dt">gna_se =</span> gna_sd/<span class="kw">sqrt</span>(N)))</code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">fish_species</th>
+<th align="left">fishing_status</th>
+<th align="right">N</th>
+<th align="right">tre_mean</th>
+<th align="right">tre_sd</th>
+<th align="right">tre_se</th>
+<th align="right">cest_mean</th>
+<th align="right">cest_sd</th>
+<th align="right">cest_se</th>
+<th align="right">cop_mean</th>
+<th align="right">cop_sd</th>
+<th align="right">cop_se</th>
+<th align="right">iso_mean</th>
+<th align="right">iso_sd</th>
+<th align="right">iso_se</th>
+<th align="right">mono_mean</th>
+<th align="right">mono_sd</th>
+<th align="right">mono_se</th>
+<th align="right">nem_mean</th>
+<th align="right">nem_sd</th>
+<th align="right">nem_se</th>
+<th align="right">gna_mean</th>
+<th align="right">gna_sd</th>
+<th align="right">gna_se</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">ACANIG</td>
+<td align="left">fished</td>
+<td align="right">85</td>
+<td align="right">358.1411765</td>
+<td align="right">455.3740261</td>
+<td align="right">49.3922480</td>
+<td align="right">1.6235294</td>
+<td align="right">3.6935480</td>
+<td align="right">0.4006215</td>
+<td align="right">0.0352941</td>
+<td align="right">0.1856173</td>
+<td align="right">0.0201330</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.4117647</td>
+<td align="right">0.7760418</td>
+<td align="right">0.0841736</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">ACANIG</td>
+<td align="left">unfished</td>
+<td align="right">50</td>
+<td align="right">330.2200000</td>
+<td align="right">377.3699690</td>
+<td align="right">53.3681728</td>
+<td align="right">1.9600000</td>
+<td align="right">3.3561397</td>
+<td align="right">0.4746298</td>
+<td align="right">0.0400000</td>
+<td align="right">0.1979487</td>
+<td align="right">0.0279942</td>
+<td align="right">0.0400000</td>
+<td align="right">0.1979487</td>
+<td align="right">0.0279942</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.1000000</td>
+<td align="right">0.3030458</td>
+<td align="right">0.0428571</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="odd">
+<td align="left">CEPURO</td>
+<td align="left">Fished</td>
+<td align="right">89</td>
+<td align="right">36.1348315</td>
+<td align="right">59.1650601</td>
+<td align="right">6.2714838</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">28.2921348</td>
+<td align="right">63.9744626</td>
+<td align="right">6.7812795</td>
+<td align="right">0.0112360</td>
+<td align="right">0.1059998</td>
+<td align="right">0.0112360</td>
+<td align="right">0.6179775</td>
+<td align="right">1.695620</td>
+<td align="right">0.1797354</td>
+<td align="right">2.2134831</td>
+<td align="right">3.9035878</td>
+<td align="right">0.4137795</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">CEPURO</td>
+<td align="left">Unfished</td>
+<td align="right">73</td>
+<td align="right">132.2191781</td>
+<td align="right">189.8464472</td>
+<td align="right">22.2198460</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">4.2054795</td>
+<td align="right">5.9743872</td>
+<td align="right">0.6992491</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.3333333</td>
+<td align="right">1.186782</td>
+<td align="right">0.1389023</td>
+<td align="right">8.1369863</td>
+<td align="right">15.6332223</td>
+<td align="right">1.8297303</td>
+<td align="right">0.125</td>
+<td align="right">0.5017575</td>
+<td align="right">0.0587263</td>
+</tr>
+<tr class="odd">
+<td align="left">CHRMAR</td>
+<td align="left">Fished</td>
+<td align="right">74</td>
+<td align="right">1.0405405</td>
+<td align="right">1.8089518</td>
+<td align="right">0.2102864</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.6486486</td>
+<td align="right">2.3020684</td>
+<td align="right">0.2676100</td>
+<td align="right">0.0135135</td>
+<td align="right">0.1162476</td>
+<td align="right">0.0135135</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">CHRMAR</td>
+<td align="left">Unfished</td>
+<td align="right">50</td>
+<td align="right">0.1400000</td>
+<td align="right">0.3505098</td>
+<td align="right">0.0495696</td>
+<td align="right">0.0400000</td>
+<td align="right">0.1979487</td>
+<td align="right">0.0279942</td>
+<td align="right">0.8000000</td>
+<td align="right">2.2946255</td>
+<td align="right">0.3245090</td>
+<td align="right">0.0200000</td>
+<td align="right">0.1414214</td>
+<td align="right">0.0200000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="odd">
+<td align="left">PARARC</td>
+<td align="left">fished</td>
+<td align="right">76</td>
+<td align="right">7.2105263</td>
+<td align="right">16.5757379</td>
+<td align="right">1.9013675</td>
+<td align="right">0.0526316</td>
+<td align="right">0.2247806</td>
+<td align="right">0.0257841</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.3684211</td>
+<td align="right">1.0177374</td>
+<td align="right">0.1167425</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">PARARC</td>
+<td align="left">unfished</td>
+<td align="right">53</td>
+<td align="right">2.7547170</td>
+<td align="right">4.4371927</td>
+<td align="right">0.6094953</td>
+<td align="right">0.4528302</td>
+<td align="right">0.9720327</td>
+<td align="right">0.1335190</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0188679</td>
+<td align="right">0.1373606</td>
+<td align="right">0.0188679</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">1.1320755</td>
+<td align="right">3.7005079</td>
+<td align="right">0.5083039</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="odd">
+<td align="left">PSEBAR</td>
+<td align="left">Fished</td>
+<td align="right">73</td>
+<td align="right">0.0547945</td>
+<td align="right">0.2291537</td>
+<td align="right">0.0268204</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.1643836</td>
+<td align="right">0.4413898</td>
+<td align="right">0.0516608</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">PSEBAR</td>
+<td align="left">Unfished</td>
+<td align="right">36</td>
+<td align="right">0.0555556</td>
+<td align="right">0.2323107</td>
+<td align="right">0.0387184</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="odd">
+<td align="left">STEAUR</td>
+<td align="left">Fished</td>
+<td align="right">63</td>
+<td align="right">4.8730159</td>
+<td align="right">10.2697364</td>
+<td align="right">1.2938652</td>
+<td align="right">0.0317460</td>
+<td align="right">0.2519763</td>
+<td align="right">0.0317460</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0317460</td>
+<td align="right">0.2519763</td>
+<td align="right">0.0317460</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td align="left">STEAUR</td>
+<td align="left">Unfished</td>
+<td align="right">80</td>
+<td align="right">5.6500000</td>
+<td align="right">12.9175575</td>
+<td align="right">1.4442268</td>
+<td align="right">0.0250000</td>
+<td align="right">0.1571100</td>
+<td align="right">0.0175654</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.000000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0625000</td>
+<td align="right">0.4596022</td>
+<td align="right">0.0513851</td>
+<td align="right">0.000</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0000000</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </section>

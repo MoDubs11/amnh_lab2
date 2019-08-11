@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 #Load the tidyverse package
 library(tidyverse)
 library(plyr)
-
+library(knitr)
 #Input data from each species into separate tables
 mastersheet<-read.csv("mastersheet.csv", header=T, stringsAsFactors = F)
 
@@ -28,8 +28,8 @@ splist<-c("acanig", "cepuro", "chrmar", "pararc", "psebar", "steaur")
 ###Find means and standard deviations for first species
 ####We've loaded in the data and we have a list of all the species.We then want to find the mean and standard error of parasite abundance for each species. 
 ```{r warning=FALSE, tidy=TRUE}
-summary_table <- mastersheet %>%
-  ddply(c("fish_species"), summarise,
+kable(summary_table <- mastersheet %>%
+  ddply(c("fish_species", "fishing_status"), summarise,
                     N    = length(fish_species),
                     tre_mean = mean (trematodes_count,na.rm=T),
                     tre_sd   = sd(trematodes_count,na.rm=T),
@@ -51,6 +51,6 @@ summary_table <- mastersheet %>%
                     nem_se   = nem_sd / sqrt(N),
                     gna_mean = mean (gnathopods_count,na.rm=T),
                     gna_sd   = sd(gnathopods_count,na.rm=T),
-                    gna_se   = gna_sd / sqrt(N))
+                    gna_se   = gna_sd / sqrt(N)))
 ```
 
