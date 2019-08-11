@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1565508788187.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8F14418C",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1565508788187,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "CAD8A2C1",
+        "caption" : "mastersheet",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=mastersheet&cache_key=CAD8A2C1",
+        "displayedObservations" : 802,
+        "environment" : "",
+        "object" : "mastersheet",
+        "preview" : 0,
+        "totalObservations" : 802,
+        "variables" : 19
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

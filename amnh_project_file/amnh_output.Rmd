@@ -11,20 +11,46 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-###set up the working path and get required R packages
-```{r echo=TRUE}
+###Input the data and get required R packages
+```{r warning=FALSE, tidy=TRUE}
 #Load the tidyverse package
 library(tidyverse)
+library(plyr)
 
 #Input data from each species into separate tables
-acanig<-read.csv("ACANIG.csv", header=T, stringsAsFactors = F)
-cepuro<-read.csv("CEPURO.csv", header=T, stringsAsFactors = F)
-chrmar<-read.csv("CHRMAR.csv", header=T, stringsAsFactors = F)
-pararc<-read.csv("PARARC.csv", header=T, stringsAsFactors = F)
-psebar<-read.csv("psebar.csv", header=T, stringsAsFactors = F)
-steaur<-read.csv("steaur.csv", header=T, stringsAsFactors = F)
+mastersheet<-read.csv("mastersheet.csv", header=T, stringsAsFactors = F)
+
 
 #Generate a list of all host species
 splist<-c("acanig", "cepuro", "chrmar", "pararc", "psebar", "steaur")
+```
+
+###Find means and standard deviations for first species
+####We've loaded in the data and we have a list of all the species.We then want to find the mean and standard error of parasite abundance for each species. 
+```{r warning=FALSE, tidy=TRUE}
+summary_table <- mastersheet %>%
+  ddply(c("fish_species"), summarise,
+                    N    = length(fish_species),
+                    tre_mean = mean (trematodes_count,na.rm=T),
+                    tre_sd   = sd(trematodes_count,na.rm=T),
+                    tre_se   = tre_sd / sqrt(N),
+                    cest_mean = mean (cestodes_count,na.rm=T),
+                    cest_sd   = sd(cestodes_count,na.rm=T),
+                    cest_se   = cest_sd / sqrt(N),
+                    cop_mean = mean (copepods_count,na.rm=T),
+                    cop_sd   = sd(copepods_count,na.rm=T),
+                    cop_se   = cop_sd / sqrt(N),
+                    iso_mean = mean (isopods_count,na.rm=T),
+                    iso_sd   = sd(isopods_count,na.rm=T),
+                    iso_se   = iso_sd / sqrt(N),
+                    mono_mean = mean (monogenians_count,na.rm=T),
+                    mono_sd   = sd(monogenians_count,na.rm=T),
+                    mono_se   = mono_sd / sqrt(N),
+                    nem_mean = mean (nematodes_count,na.rm=T),
+                    nem_sd   = sd(nematodes_count,na.rm=T),
+                    nem_se   = nem_sd / sqrt(N),
+                    gna_mean = mean (gnathopods_count,na.rm=T),
+                    gna_sd   = sd(gnathopods_count,na.rm=T),
+                    gna_se   = gna_sd / sqrt(N))
 ```
 
