@@ -17,8 +17,29 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(plyr)
 library(knitr)
-#Input data from each species into separate tables
+#Input dataset from csv
 mastersheet<-read.csv("mastersheet.csv", header=T, stringsAsFactors = F)
+
+#Modify spreadsheet so all numbers are in longform
+library(reshape2)
+form_master<- melt(mastersheet, 
+                     variable.name = "key",
+                     value.names = "value",
+                     id.vars = c("fish_id", "fish_species", "island"),
+                    measure.vars = c("trematodes_count", "cestodes_count",
+                                     "copepods_count", "isopods_count", 
+                                     "nematodes_count", "monogenians_count",
+                                     "gnathopods_count"))
+
+form_master$transmission[form_master$key=="trematodes_count"] <- "trophic" 
+form_master$transmission[form_master$key=="cestodes_count"] <- "trophic" 
+form_master$transmission[form_master$key=="copepods_count"] <- "direct" 
+form_master$transmission[form_master$key=="isopods_count"] <- "direct" 
+form_master$transmission[form_master$key=="nematodes_count"] <- "trophic"
+form_master$transmission[form_master$key=="monogenians_count"] <- "direct" 
+form_master$transmission[form_master$key=="gnathopods_count"] <- "direct" 
+
+
 
 
 #Generate a list of all host species
@@ -53,14 +74,7 @@ kable(summary_table <- mastersheet %>%
                     gna_sd   = sd(gnathopods_count,na.rm=T),
                     gna_se   = gna_sd / sqrt(N)))
 ```
-Modify the table so that the data is easily plotted
-```{r}
-library(reshape2)
-formatted_summary<- melt(summary_table, 
-                     variable.name = "key",
-                     value.names = "value",
-                     id.vars = c("fish_species", "fishing_status"))
-```
+
 
 Plot the data
 ```{r}

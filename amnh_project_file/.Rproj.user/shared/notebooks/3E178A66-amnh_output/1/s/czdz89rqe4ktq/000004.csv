@@ -1,5 +1,0 @@
-"0","library(reshape2)"
-"0","formatted_summary<- melt(summary_table, "
-"0","                     variable.name = ""key"","
-"0","                     value.names = ""value"","
-"0","                     id.vars = c(""fish_species"", ""fishing_status""))"
