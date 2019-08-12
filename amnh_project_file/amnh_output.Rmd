@@ -17,6 +17,8 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(plyr)
 library(knitr)
+library(lme4)
+library(lmerTest)
 #Input dataset from csv
 mastersheet<-read.csv("mastersheet.csv", header=T, stringsAsFactors = F)
 
@@ -40,6 +42,7 @@ form_master$transmission[form_master$key=="monogenians_count"] <- "direct"
 form_master$transmission[form_master$key=="gnathopods_count"] <- "direct" 
 
 
+anova(lmer(form_master$value~form_master$key*form_master$island*(1|form_master$fish_species)))
 
 
 #Generate a list of all host species
@@ -78,19 +81,6 @@ kable(summary_table <- mastersheet %>%
 
 Plot the data
 ```{r}
-bitetime_plot<-ggplot(bite_summary, aes(x=temp, y=mean, color=trial)) + 
-  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.3) +
-  geom_point(size=3)+
-  xlab("Temperature ?C")+
-  ylab("Bite Time (s)")+
-  scale_colour_manual(values=c("orange","darkgray"),
-                      name  ="Infection Status",
-                      breaks=c("I", "U"),
-                      labels=c("Infected", "Uninfected")) +
-  scale_shape_discrete(name  ="Prey Status",
-                       breaks=c("dead", "live"),
-                       labels=c("Dead", "Live"))+
-  theme(panel.grid.major = element_blank(), legend.position="none", panel.grid.minor = element_blank(),
-        panel.background = element_blank(), axis.line = element_line(colour = "black"))
+
 ```
 
