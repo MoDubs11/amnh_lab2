@@ -131,7 +131,8 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <pre><code>## The following object is masked from 'package:purrr':
 ## 
 ##     compact</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># Input data from each species into separate tables</span>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(knitr)
+<span class="co"># Input data from each species into separate tables</span>
 mastersheet &lt;-<span class="st"> </span><span class="kw">read.csv</span>(<span class="st">&quot;mastersheet.csv&quot;</span>, <span class="dt">header =</span> T, <span class="dt">stringsAsFactors =</span> F)
 
 
@@ -142,8 +143,7 @@ splist &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="st">
 <h3>Find means and standard deviations for first species</h3>
 <div id="weve-loaded-in-the-data-and-we-have-a-list-of-all-the-species.we-then-want-to-find-the-mean-and-standard-error-of-parasite-abundance-for-each-species." class="section level4">
 <h4>We’ve loaded in the data and we have a list of all the species.We then want to find the mean and standard error of parasite abundance for each species.</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(knitr)
-<span class="kw">kable</span>(summary_table &lt;-<span class="st"> </span>mastersheet %&gt;%<span class="st"> </span><span class="kw">ddply</span>(<span class="kw">c</span>(<span class="st">&quot;fish_species&quot;</span>, <span class="st">&quot;fishing_status&quot;</span>), 
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">kable</span>(summary_table &lt;-<span class="st"> </span>mastersheet %&gt;%<span class="st"> </span><span class="kw">ddply</span>(<span class="kw">c</span>(<span class="st">&quot;fish_species&quot;</span>, <span class="st">&quot;fishing_status&quot;</span>), 
     summarise, <span class="dt">N =</span> <span class="kw">length</span>(fish_species), <span class="dt">tre_mean =</span> <span class="kw">mean</span>(trematodes_count, <span class="dt">na.rm =</span> T), 
     <span class="dt">tre_sd =</span> <span class="kw">sd</span>(trematodes_count, <span class="dt">na.rm =</span> T), <span class="dt">tre_se =</span> tre_sd/<span class="kw">sqrt</span>(N), <span class="dt">cest_mean =</span> <span class="kw">mean</span>(cestodes_count, 
         <span class="dt">na.rm =</span> T), <span class="dt">cest_sd =</span> <span class="kw">sd</span>(cestodes_count, <span class="dt">na.rm =</span> T), <span class="dt">cest_se =</span> cest_sd/<span class="kw">sqrt</span>(N), 

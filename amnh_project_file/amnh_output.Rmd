@@ -53,4 +53,30 @@ kable(summary_table <- mastersheet %>%
                     gna_sd   = sd(gnathopods_count,na.rm=T),
                     gna_se   = gna_sd / sqrt(N)))
 ```
+Modify the table so that the data is easily plotted
+```{r}
+library(reshape2)
+formatted_summary<- melt(summary_table, 
+                     variable.name = "key",
+                     value.names = "value",
+                     id.vars = c("fish_species", "fishing_status"))
+```
+
+Plot the data
+```{r}
+bitetime_plot<-ggplot(bite_summary, aes(x=temp, y=mean, color=trial)) + 
+  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.3) +
+  geom_point(size=3)+
+  xlab("Temperature ?C")+
+  ylab("Bite Time (s)")+
+  scale_colour_manual(values=c("orange","darkgray"),
+                      name  ="Infection Status",
+                      breaks=c("I", "U"),
+                      labels=c("Infected", "Uninfected")) +
+  scale_shape_discrete(name  ="Prey Status",
+                       breaks=c("dead", "live"),
+                       labels=c("Dead", "Live"))+
+  theme(panel.grid.major = element_blank(), legend.position="none", panel.grid.minor = element_blank(),
+        panel.background = element_blank(), axis.line = element_line(colour = "black"))
+```
 

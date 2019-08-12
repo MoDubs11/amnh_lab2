@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1565636847591.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3ABD1137",
+    "lastKnownWriteTime" : 19140693560787055,
+    "last_content_update" : 1565636847591,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "FBE674FB",
+        "caption" : "form_master",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=form_master&cache_key=FBE674FB",
+        "displayedObservations" : 5614,
+        "environment" : "",
+        "object" : "form_master",
+        "preview" : 0,
+        "totalObservations" : 5614,
+        "variables" : 5
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
